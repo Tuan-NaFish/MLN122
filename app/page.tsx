@@ -13,6 +13,93 @@ export default function Home() {
       <MarketFlow />
       <ChallengesSection />
 
+      {/* ChatGPT academic process */}
+      <section className="px-6 py-20 bg-slate-950">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col lg:flex-row gap-10 lg:gap-14">
+            <div className="lg:w-1/3">
+              <div className="inline-flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-[0.25em] mb-4">
+                <span className="w-2 h-2 rounded-full bg-emerald-400" />
+                Cam kết học thuật
+              </div>
+              <h2 className="text-3xl md:text-4xl font-black text-white leading-tight">
+                🛡️ QUY TRÌNH SỬ DỤNG CHATGPT TRONG HỌC THUẬT
+              </h2>
+              <p className="text-white/50 text-sm mt-4">
+                Tuyên bố cách sử dụng ChatGPT có kiểm soát, minh bạch và phù hợp với chuẩn mực học thuật.
+              </p>
+            </div>
+
+            <div className="lg:w-2/3 space-y-6">
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-white font-bold text-lg mb-2">
+                  1. Minh bạch hóa việc tham khảo
+                </h3>
+                <div className="space-y-2 text-white/60 text-sm leading-relaxed">
+                  <p>
+                    ChatGPT: Được sử dụng như một cộng sự để gợi ý cấu trúc bài viết, giải thích các thuật ngữ chuyên môn phức tạp và hỗ trợ tìm kiếm từ khóa liên quan đến đề tài.
+                  </p>
+                  <p>
+                    <span className="text-emerald-300 font-semibold">Mục tiêu:</span> Tối ưu hóa thời gian xây dựng khung sườn (Outline) và cải thiện khả năng diễn đạt ngôn ngữ sao cho chuyên nghiệp hơn.
+                  </p>
+                  <p>
+                    <span className="text-emerald-300 font-semibold">Lưu ý:</span> AI chỉ cung cấp nguyên liệu thô, không quyết định nội dung cuối cùng.
+                  </p>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-white font-bold text-lg mb-3">
+                  2. Kiểm chứng và Đối chiếu dữ liệu
+                </h3>
+                <div className="space-y-3 text-white/60 text-sm leading-relaxed">
+                  <p>
+                    Dữ liệu từ ChatGPT thường có độ trễ hoặc lỗi logic, vì vậy quy trình kiểm chứng là bắt buộc:
+                  </p>
+                  <div className="space-y-2">
+                    <p><span className="text-emerald-300 font-semibold">Nguồn chính thống:</span> Mọi lý thuyết và con số đều được đối chiếu trực tiếp với giáo trình học phần và các tài liệu nghiên cứu từ thư viện số.</p>
+                    <p><span className="text-emerald-300 font-semibold">Xác thực:</span> Kiểm tra lại các trích dẫn (citations) mà AI gợi ý để đảm bảo chúng thực sự tồn tại và đúng ngữ cảnh.</p>
+                    <p><span className="text-emerald-300 font-semibold">Trách nhiệm:</span> Sinh viên chịu trách nhiệm 100% về tính xác thực của thông tin trong sản phẩm cuối cùng.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-white font-bold text-lg mb-3">
+                  3. Quy trình "Tiếp nhận &amp; Chuyển hóa"
+                </h3>
+                <div className="space-y-2 text-white/60 text-sm leading-relaxed">
+                  <p>Để đảm bảo tính cá nhân hóa, bài làm tuân thủ quy trình 3 bước:</p>
+                  <p><span className="text-emerald-300 font-semibold">Phân tích:</span> Đặt câu hỏi (Prompt) chi tiết để ChatGPT đưa ra các góc nhìn đa chiều.</p>
+                  <p><span className="text-emerald-300 font-semibold">Sàng lọc:</span> Loại bỏ những thông tin chung chung, giữ lại các ý tưởng có giá trị thực tiễn.</p>
+                  <p><span className="text-emerald-300 font-semibold">Viết lại:</span> Tự tay biên soạn lại toàn bộ nội dung dựa trên kiến thức đã học, lồng ghép ví dụ thực tế từ kinh nghiệm cá nhân.</p>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-white font-bold text-lg mb-3">
+                  4. Cam kết về Liêm chính học thuật
+                </h3>
+                <div className="space-y-2 text-white/60 text-sm leading-relaxed">
+                  <p><span className="text-emerald-300 font-semibold">Không lạm dụng:</span> Không sử dụng ChatGPT để tạo ra toàn bộ nội dung bài làm (copy-paste).</p>
+                  <p><span className="text-emerald-300 font-semibold">Bản sắc cá nhân:</span> Sản phẩm cuối cùng là kết quả của quá trình đọc - hiểu - phân tích.</p>
+                  <p><span className="text-emerald-300 font-semibold">Dấu ấn tư duy:</span> AI chỉ đóng vai trò "gợi mở", tư duy phản biện và giải quyết vấn đề thuộc về sinh viên.</p>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-6">
+                <h3 className="text-emerald-200 font-bold text-lg mb-2">
+                  Cam kết
+                </h3>
+                <p className="text-emerald-100/80 text-sm leading-relaxed">
+                  Việc sử dụng ChatGPT được thực hiện một cách có kiểm soát, minh bạch và đúng mục đích học tập; đề cao sự trung thực và nỗ lực tự thân trong học thuật.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-16 px-6 bg-slate-950 border-t border-white/8">
         <div className="max-w-5xl mx-auto">
